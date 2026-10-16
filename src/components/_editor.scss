@@ -16,7 +16,8 @@ body {
   --table-border-color: var(--background-modifier-border);
   --table-header-border-width: 1px;
   --table-header-weight: 600;
-  --table-header-color: var(--h1-color);
+  --table-header-color: var(--text-normal);
+  --table-white-space: normal;
   --table-header-background: transparent;
   --table-row-alt-background: transparent;
   --table-row-background-hover: var(--background-modifier-hover);
@@ -26,6 +27,38 @@ body {
   --tag-padding-x: 0.6em;
   --tag-padding-y: 0.15em;
   --tag-weight: 500;
+}
+
+// Hide line numbers in Live Preview, they stay visible in Source mode.
+.is-live-preview .cm-gutters {
+  display: none;
+}
+
+// Tables fill the pane and wrap long cells instead of scrolling sideways. Columns size to their content,
+// and words only break mid-word as a last resort.
+.markdown-preview-view table,
+.markdown-source-view.mod-cm6 table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: auto;
+}
+
+.markdown-preview-view table :is(th, td),
+.markdown-source-view.mod-cm6 table :is(th, td) {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+// Wide diagrams escape the readable column and only scroll when truly too wide.
+.markdown-preview-view .block-language-mermaid,
+.markdown-source-view.mod-cm6 .block-language-mermaid {
+  width: max-content;
+  max-width: none;
 }
 
 // VS Code underlines H1 and H2 with a hairline rule in its Markdown preview.

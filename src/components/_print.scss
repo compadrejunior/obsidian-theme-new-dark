@@ -1,0 +1,35 @@
+// PDF export: smaller type in points, a print-friendly font, and no orphaned headings.
+@media print {
+  body {
+    --font-text-size: 11pt;
+    --font-weight: 400;
+    --bold-modifier: 200;
+  }
+
+  .markdown-preview-view {
+    font-weight: 400;
+    font-size: var(--font-text-size);
+    font-family: "Gill Sans", "Gill Sans MT", calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .markdown-preview-view h1 {
+    font-size: 21pt;
+  }
+
+  .markdown-preview-view h2 {
+    font-size: 16pt;
+  }
+
+  .markdown-preview-view h3 {
+    font-size: 13pt;
+  }
+
+  .markdown-preview-view :is(h1, h2) {
+    break-after: avoid;
+  }
+
+  // Add <div class="page-break"></div> to a note to force a new page.
+  .page-break {
+    break-after: page;
+  }
+}

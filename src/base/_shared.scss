@@ -11,5 +11,6 @@ body {
   --radius-l: 10px;
   --border-width: 1px;
 
-  --file-line-width: 760px;
+  // Wide readable column so tables and diagrams get more room. Obsidian applies this variable as a width.
+  --file-line-width: 95%;
 }

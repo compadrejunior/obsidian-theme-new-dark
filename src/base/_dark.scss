@@ -31,9 +31,9 @@
 
   // Surfaces: the editor is a step lighter than the side panels, like the floating editor card in VS Code.
   --background-primary: #1f1f1f;
-  --background-primary-alt: #262626;
+  --background-primary-alt: #181818;
   --background-secondary: #181818;
-  --background-secondary-alt: #1f1f1f;
+  --background-secondary-alt: #181818;
   --background-modifier-border: #2b2b2b;
   --background-modifier-border-hover: #3c3c3c;
   --background-modifier-border-focus: var(--interactive-accent);
@@ -56,14 +56,7 @@
   --text-highlight-bg: #623315;
   --caret-color: #aeafad;
 
-  // Headings and text emphasis.
-  --h1-color: #fff;
-  --h2-color: #fff;
-  --h3-color: #f0f0f0;
-  --h4-color: #e0e0e0;
-  --h5-color: #ccc;
-  --h6-color: #9d9d9d;
-  --bold-color: #fff;
+  // Heading and bold colors follow the accent, see components/typography.
   --italic-color: #ccc;
   --inline-title-color: #fff;
 
@@ -79,7 +72,7 @@
   --tag-border-color: #2b3f55;
 
   // Syntax highlighting follows the VS Code token palette.
-  --code-background: #262626;
+  --code-background: #181818;
   --code-normal: #a5c0b0;
   --code-comment: #6a9955;
   --code-function: #dcdcaa;
