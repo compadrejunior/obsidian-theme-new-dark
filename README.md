@@ -2,7 +2,7 @@
 
 New Dark is an Obsidian theme that brings the look of Visual Studio Code's Dark Modern to your notes: near-black surfaces, hairline grey borders, small rounded corners, and a calm blue accent. A matching light mode follows VS Code's Light Modern, so the theme works with either Base color scheme.
 
-<!-- Add screenshot.png (512 x 288 px) at the repository root, then show it here with: ![New Dark](screenshot.png) -->
+![New Dark in dark mode, showing the file explorer, note properties, accent headings, and a callout](screenshot.png)
 
 ## Highlights
 
