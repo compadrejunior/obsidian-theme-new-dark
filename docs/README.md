@@ -6,6 +6,7 @@ Reference material for building the New Dark theme. It documents the CSS variabl
 
 | Document | Use it to |
 | --- | --- |
+| [User guide](user-guide.md) | Customize New Dark with CSS snippets: colors, accent, headings, code, radii, fonts, page width, and PDF export. |
 | [How styling works](how-styling-works.md) | Understand where to define variables, how light and dark mode work, and how to find an unknown variable. |
 | [Variable index](variable-index.md) | Look up any variable by name and see which interface area it controls. |
 | [CSS variables reference](css-variables/README.md) | Browse variables by area, with default values and descriptions. |
