@@ -26,6 +26,8 @@ There is no automated test suite. Verification means `npm run verify` plus a vis
 
 The theme works by overriding Obsidian's CSS variables rather than restyling elements. To find a variable name, use the `find-obsidian-variable` skill or `Ctrl+Shift+I` in Obsidian, since a misspelled variable fails silently.
 
+The `docs/` folder is the local reference for variable names. Look a variable up in `docs/variable-index.md` (alphabetical, with the interface area each one changes) or browse `docs/css-variables/<area>/` before guessing a name or fetching the web. The variable tables are a snapshot taken from the official reference on 2026-10-16, so treat the official page linked at the bottom of each file as authoritative if a value looks stale. `docs/how-styling-works.md` explains where to define values, and `docs/theme-guidelines.md` summarizes the submission rules.
+
 ## Hard constraints from the Obsidian guidelines
 
 - No `!important`, no `@import`, and no remote fonts or images. Assets must be base64 data URIs (see the `embed-asset` skill), and `npm run check` fails on any other `url()`.
