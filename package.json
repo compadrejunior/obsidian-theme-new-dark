@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-theme-new-dark",
+  "version": "0.1.0",
+  "private": true,
+  "description": "New Dark, an Obsidian community theme.",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:app && npm run build:publish",
+    "build:app": "sass --no-source-map --style=expanded src/theme.scss theme.css",
+    "build:publish": "sass --no-source-map --style=compressed src/publish.scss publish.css",
+    "watch": "sass --watch --no-source-map --style=expanded src/theme.scss:theme.css src/publish.scss:publish.css",
+    "lint": "stylelint \"src/**/*.scss\"",
+    "lint:fix": "stylelint \"src/**/*.scss\" --fix",
+    "check": "node scripts/check.mjs",
+    "verify": "npm run lint && npm run build && npm run check",
+    "link": "node scripts/link-vault.mjs"
+  },
+  "devDependencies": {
+    "sass": "^1.105.2",
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard-scss": "^17.0.0"
+  }
+}

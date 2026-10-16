@@ -1,0 +1,55 @@
+/*
+  New Dark: an Obsidian community theme.
+  Generated from src/theme.scss. Do not edit theme.css by hand.
+*/
+body {
+  --font-text-theme: "Inter", var(--font-interface-theme), sans-serif;
+  --font-monospace-theme: "JetBrains Mono", "Cascadia Code", ui-monospace, monospace;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --file-line-width: 720px;
+}
+
+.theme-dark {
+  --accent-h: 262;
+  --accent-s: 80%;
+  --accent-l: 66%;
+  --background-primary: #141418;
+  --background-primary-alt: #1a1a20;
+  --background-secondary: #101014;
+  --background-modifier-border: #2a2a33;
+  --text-normal: #e6e6ec;
+  --text-muted: #a0a0ae;
+  --text-faint: #6c6c7a;
+}
+
+.theme-light {
+  --accent-h: 262;
+  --accent-s: 70%;
+  --accent-l: 52%;
+  --background-primary: #fbfbfd;
+  --background-primary-alt: #f3f3f8;
+  --background-secondary: #eeeef4;
+  --background-modifier-border: #dcdce6;
+  --text-normal: #1d1d24;
+  --text-muted: #565664;
+  --text-faint: #8a8a98;
+}
+
+body {
+  --h1-size: 1.8em;
+  --h2-size: 1.5em;
+  --h3-size: 1.25em;
+  --h4-size: 1.1em;
+  --h5-size: 1em;
+  --h6-size: 0.95em;
+  --h1-weight: 700;
+  --h2-weight: 650;
+  --h3-weight: 600;
+}
+
+body {
+  --code-background: var(--background-primary-alt);
+  --blockquote-border-color: var(--interactive-accent);
+}

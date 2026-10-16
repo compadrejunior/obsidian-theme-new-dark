@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "declaration-no-important": true,
+    "selector-max-id": 0,
+    "selector-max-compound-selectors": 3,
+    "color-no-invalid-hex": true,
+    "custom-property-pattern": null,
+    "selector-class-pattern": null,
+    "custom-property-empty-line-before": null
+  }
+}

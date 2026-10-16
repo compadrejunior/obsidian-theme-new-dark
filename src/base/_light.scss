@@ -1,0 +1,15 @@
+// Light mode colors. Keep the same variable names as the dark file.
+.theme-light {
+  --accent-h: 262;
+  --accent-s: 70%;
+  --accent-l: 52%;
+
+  --background-primary: #fbfbfd;
+  --background-primary-alt: #f3f3f8;
+  --background-secondary: #eeeef4;
+  --background-modifier-border: #dcdce6;
+
+  --text-normal: #1d1d24;
+  --text-muted: #565664;
+  --text-faint: #8a8a98;
+}

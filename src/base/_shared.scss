@@ -1,0 +1,11 @@
+// Variables that stay the same in light and dark mode live under body.
+body {
+  --font-text-theme: "Inter", var(--font-interface-theme), sans-serif;
+  --font-monospace-theme: "JetBrains Mono", "Cascadia Code", ui-monospace, monospace;
+
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+
+  --file-line-width: 720px;
+}

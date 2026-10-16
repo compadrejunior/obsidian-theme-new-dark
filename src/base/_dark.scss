@@ -1,0 +1,15 @@
+// Dark mode colors. Prefer the HSL accent variables so Obsidian can derive hover and active states.
+.theme-dark {
+  --accent-h: 262;
+  --accent-s: 80%;
+  --accent-l: 66%;
+
+  --background-primary: #141418;
+  --background-primary-alt: #1a1a20;
+  --background-secondary: #101014;
+  --background-modifier-border: #2a2a33;
+
+  --text-normal: #e6e6ec;
+  --text-muted: #a0a0ae;
+  --text-faint: #6c6c7a;
+}

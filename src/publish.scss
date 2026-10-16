@@ -1,0 +1,16 @@
+// Obsidian Publish theme, built from scratch. Do not reuse app theme selectors here.
+// Keep this file small, and never embed fonts or images, because it loads on every visit.
+.published-container {
+  --page-width: 760px;
+  --page-side-padding: 32px;
+}
+
+.theme-dark {
+  --background-primary: #141418;
+  --text-normal: #e6e6ec;
+}
+
+.theme-light {
+  --background-primary: #fbfbfd;
+  --text-normal: #1d1d24;
+}
