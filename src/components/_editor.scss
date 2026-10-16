@@ -1,5 +1,35 @@
 // Editor and reading view tweaks. Keep selectors shallow, since Obsidian renames internal classes between releases.
 body {
-  --code-background: var(--background-primary-alt);
-  --blockquote-border-color: var(--interactive-accent);
+  --blockquote-border-color: var(--background-modifier-border-hover);
+  --blockquote-border-thickness: 3px;
+  --blockquote-background-color: var(--background-primary-alt);
+  --blockquote-color: var(--text-muted);
+
+  --code-size: 0.9em;
+  --hr-color: var(--background-modifier-border);
+
+  --callout-radius: var(--radius-m);
+  --callout-border-width: 1px;
+  --callout-border-opacity: 0.3;
+  --callout-padding: 12px 16px;
+
+  --table-border-color: var(--background-modifier-border);
+  --table-header-border-width: 1px;
+  --table-header-weight: 600;
+  --table-header-color: var(--h1-color);
+  --table-header-background: transparent;
+  --table-row-alt-background: transparent;
+  --table-row-background-hover: var(--background-modifier-hover);
+
+  --tag-radius: var(--radius-s);
+  --tag-border-width: 1px;
+  --tag-padding-x: 0.6em;
+  --tag-padding-y: 0.15em;
+  --tag-weight: 500;
+}
+
+// VS Code underlines H1 and H2 with a hairline rule in its Markdown preview.
+.markdown-rendered :is(h1, h2) {
+  padding-bottom: 0.3em;
+  border-bottom: var(--border-width) solid var(--background-modifier-border);
 }

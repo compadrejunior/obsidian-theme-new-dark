@@ -1,0 +1,50 @@
+// Window chrome and controls: flat panels split by hairline borders, with small rounded corners on every control.
+body {
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary);
+  --titlebar-border-width: 1px;
+  --titlebar-border-color: var(--background-modifier-border);
+  --titlebar-text-weight: 400;
+
+  --ribbon-background: var(--background-secondary);
+  --ribbon-background-collapsed: var(--background-secondary);
+
+  --status-bar-background: var(--background-secondary);
+  --status-bar-border-width: 1px 0 0 0;
+  --status-bar-border-color: var(--background-modifier-border);
+  --status-bar-radius: 0;
+
+  --divider-color: var(--background-modifier-border);
+  --divider-width: 1px;
+  --divider-color-hover: var(--interactive-accent);
+
+  --tab-container-background: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
+  --tab-outline-color: var(--background-modifier-border);
+  --tab-outline-width: 1px;
+  --tab-radius: var(--radius-s);
+  --tab-radius-active: var(--radius-s) var(--radius-s) 0 0;
+  --tab-text-color: var(--text-muted);
+  --tab-text-color-focused: var(--text-normal);
+  --tab-text-color-focused-active-current: var(--text-normal);
+
+  --nav-item-background-hover: var(--background-modifier-hover);
+  --nav-item-background-active: var(--background-modifier-active-hover);
+  --nav-item-background-selected: var(--background-modifier-active-hover);
+
+  --clickable-icon-radius: var(--radius-s);
+  --button-radius: var(--radius-s);
+  --input-radius: var(--radius-s);
+  --input-height: 30px;
+  --input-border-width: 1px;
+  --checkbox-radius: var(--radius-s);
+
+  --modal-radius: var(--radius-l);
+  --modal-border-width: 1px;
+  --modal-border-color: var(--background-modifier-border-hover);
+  --prompt-border-width: 1px;
+  --prompt-border-color: var(--background-modifier-border-hover);
+
+  --dropdown-background: var(--background-modifier-form-field);
+  --dropdown-background-hover: var(--interactive-hover);
+}

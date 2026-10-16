@@ -1,11 +1,15 @@
 // Variables that stay the same in light and dark mode live under body.
 body {
-  --font-text-theme: "Inter", var(--font-interface-theme), sans-serif;
-  --font-monospace-theme: "JetBrains Mono", "Cascadia Code", ui-monospace, monospace;
+  // System UI font stack, matching how VS Code renders text on each platform.
+  --font-interface-theme: -apple-system, "Segoe UI", system-ui, "Helvetica Neue", roboto, sans-serif;
+  --font-text-theme: var(--font-interface-theme);
+  --font-monospace-theme: "CaskaydiaCove Nerd Font Mono", "Cascadia Code", consolas, "SF Mono", ui-monospace, monospace;
 
+  // Small radii and hairline borders give the VS Code look of tight, crisp controls.
   --radius-s: 4px;
-  --radius-m: 8px;
-  --radius-l: 12px;
+  --radius-m: 6px;
+  --radius-l: 10px;
+  --border-width: 1px;
 
-  --file-line-width: 720px;
+  --file-line-width: 760px;
 }

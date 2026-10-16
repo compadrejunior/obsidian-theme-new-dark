@@ -1,15 +1,94 @@
-// Light mode colors. Keep the same variable names as the dark file.
+// Light mode colors, modeled on the VS Code Light Modern theme. Keep the same variable names as the dark file.
 .theme-light {
-  --accent-h: 262;
-  --accent-s: 70%;
-  --accent-l: 52%;
+  --accent-h: 208;
+  --accent-s: 100%;
+  --accent-l: 36%;
 
-  --background-primary: #fbfbfd;
-  --background-primary-alt: #f3f3f8;
-  --background-secondary: #eeeef4;
-  --background-modifier-border: #dcdce6;
+  --color-base-00: #f8f8f8;
+  --color-base-05: #f5f5f5;
+  --color-base-10: #fff;
+  --color-base-20: #f3f3f3;
+  --color-base-25: #ececec;
+  --color-base-30: #e5e5e5;
+  --color-base-35: #d4d4d4;
+  --color-base-40: #bdbdbd;
+  --color-base-50: #a0a0a0;
+  --color-base-60: #707070;
+  --color-base-70: #616161;
+  --color-base-100: #3b3b3b;
 
-  --text-normal: #1d1d24;
-  --text-muted: #565664;
-  --text-faint: #8a8a98;
+  --color-red: #cd3131;
+  --color-orange: #b5590a;
+  --color-yellow: #b89500;
+  --color-green: #107c10;
+  --color-cyan: #00877a;
+  --color-blue: #005fb8;
+  --color-purple: #af00db;
+  --color-pink: #c2185b;
+
+  --background-primary: #fff;
+  --background-primary-alt: #f3f3f3;
+  --background-secondary: #f8f8f8;
+  --background-secondary-alt: #fff;
+  --background-modifier-border: #e5e5e5;
+  --background-modifier-border-hover: #cecece;
+  --background-modifier-border-focus: var(--interactive-accent);
+  --background-modifier-form-field: #fff;
+  --background-modifier-hover: #f0f0f0;
+  --background-modifier-active-hover: #e4e6f1;
+
+  --interactive-normal: #f3f3f3;
+  --interactive-hover: #e8e8e8;
+  --interactive-accent: #005fb8;
+  --interactive-accent-hover: #0258a8;
+  --text-on-accent: #fff;
+
+  --text-normal: #3b3b3b;
+  --text-muted: #616161;
+  --text-faint: #8b949e;
+  --text-accent: #005fb8;
+  --text-accent-hover: #0258a8;
+  --text-selection: #add6ff;
+  --text-highlight-bg: #ffdf5d99;
+  --caret-color: #000;
+
+  --h1-color: #1f1f1f;
+  --h2-color: #1f1f1f;
+  --h3-color: #2b2b2b;
+  --h4-color: #3b3b3b;
+  --h5-color: #3b3b3b;
+  --h6-color: #616161;
+  --bold-color: #1f1f1f;
+  --italic-color: #3b3b3b;
+  --inline-title-color: #1f1f1f;
+
+  --link-color: #005fb8;
+  --link-color-hover: #0258a8;
+  --link-external-color: #005fb8;
+  --link-external-color-hover: #0258a8;
+  --link-unresolved-color: #005fb8;
+
+  --list-marker-color: #616161;
+  --tag-color: #005fb8;
+  --tag-background: #e6f1fb;
+  --tag-border-color: #c7dff3;
+
+  --code-background: #f0f0f0;
+  --code-normal: #3b3b3b;
+  --code-comment: #008000;
+  --code-function: #795e26;
+  --code-important: #811f3f;
+  --code-keyword: #af00db;
+  --code-operator: #3b3b3b;
+  --code-property: #001080;
+  --code-punctuation: #3b3b3b;
+  --code-string: #a31515;
+  --code-tag: #0070c1;
+  --code-value: #098658;
+
+  --table-header-border-color: #bdbdbd;
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #64646466;
+  --scrollbar-active-thumb-bg: #0009;
 }
